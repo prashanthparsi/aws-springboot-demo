@@ -17,3 +17,12 @@ We can connect to mySQL using mySQL workbench using below instructions.
 
 https://www.lucidchart.com/documents/view/703f6119-4838-4bbb-bc7e-be2fb75e89e5/6
 
+
+SSH hostname is the EC2 instance public IP
+username: ec2-user
+no password
+key file: created keypair.pem path
+sql hostname is the endpoint of RDS host (can be found in RDS database instance configuration)
+port 3306
+enter credentials
+Test connection and after success, connect and start querying
